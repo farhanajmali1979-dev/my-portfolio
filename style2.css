@@ -117,3 +117,49 @@ footer{
     background:#fff;
     color:#3498db;
 }
+.project-card{
+    background:#fff;
+    width:300px;
+    padding:20px;
+    margin:20px auto;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+}
+
+.project-card h3{
+    color:#3498db;
+}
+
+form{
+    max-width:500px;
+    margin:30px auto;
+}
+
+form input,
+form textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+form button{
+    background:#3498db;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+form button:hover{
+    background:#217dbb;
+}
