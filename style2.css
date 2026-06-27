@@ -86,3 +86,34 @@ footer{
     background:#2c3e50;
     transform:translateY(-8px);
 }
+
+.hero-buttons{
+    margin-top:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ffffff;
+    color:#3498db;
+    padding:12px 25px;
+    margin:10px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#222;
+    color:#fff;
+}
+
+.btn-secondary{
+    background:#222;
+    color:#fff;
+}
+
+.btn-secondary:hover{
+    background:#fff;
+    color:#3498db;
+}
