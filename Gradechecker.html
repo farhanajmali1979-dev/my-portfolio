@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade Checker</title>
+</head>
+<body>
+
+<button onclick="checkGrade()">Check Grade</button>
+
+<script>
+
+function checkGrade(){
+
+    let marks = Number(prompt("Enter Your Marks"));
+
+    if(marks >= 80){
+        alert("Grade A");
+    }
+    else if(marks >= 60){
+        alert("Grade B");
+    }
+    else if(marks >= 40){
+        alert("Grade C");
+    }
+    else{
+        alert("Fail");
+    }
+
+}
+
+</script>
+
+</body>
+</html>
