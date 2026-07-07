@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+</head>
+
+<body>
+
+<h2>Simple Calculator</h2>
+
+<button onclick="calculate()">Calculate</button>
+<button onclick="welcome()">Welcome</button>
+
+<script>
+
+function calculate(){
+
+let num1 = Number(prompt("Enter First Number"));
+
+let num2 = Number(prompt("Enter Second Number"));
+
+let add = num1 + num2;
+let sub = num1 - num2;
+let mul = num1 * num2;
+let div = num1 / num2;
+
+alert(
+"Addition = " + add +
+"\nSubtraction = " + sub +
+"\nMultiplication = " + mul +
+"\nDivision = " + div
+);
+
+}
+
+function welcome(){
+
+let name = prompt("Enter Your Name");
+
+alert("Welcome " + name);
+
+}
+
+
+</script>
+
+</body>
+
+</html>
